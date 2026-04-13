@@ -1,0 +1,1 @@
+any((print(f"Olá, Pedro! Seja bem vindo!!") or True) if input(f"Digite seu nome (tentativa {i}/3): ").strip() == "Pedro" and input(f"Digite sua senha (tentativa {i}/3): ").strip() == "2008" else (print("Usuario ou senha incorretos!!") and False) for i in range(1, 4)) or print("Tentativa esgotadas.")
