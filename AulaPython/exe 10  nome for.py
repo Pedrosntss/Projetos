@@ -3,7 +3,7 @@ for tentativa in range (1,4):
 
     if nome != "":
         print (f"Olá, {nome}! Tudo bem?")
-        break
+        break #Para o programa
     print("Você não digitou o nome!")
 
 else:
